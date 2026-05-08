@@ -33,7 +33,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 82500,
     inaugurationYear: 2010,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Metlife_stadium_%28Aerial_view%29.jpg/800px-Metlife_stadium_%28Aerial_view%29.jpg",
+    image: "/stadiums/metlife.jpg",
     description: "Casa do New York Giants e New York Jets, será palco da final da Copa do Mundo 2026.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 2500, capacity: 5000, description: "Assentos premium com vista privilegiada, acesso a lounge exclusivo e serviço de alimentação incluso." },
@@ -50,7 +50,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 80000,
     inaugurationYear: 2009,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg/800px-Arlington_June_2020_4_%28AT%26T_Stadium%29.jpg",
+    image: "/stadiums/att.jpg",
     description: "Conhecido como 'Jerry World', possui um dos maiores telões do mundo e teto retrátil.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 2200, capacity: 4500, description: "Suítes privativas com catering exclusivo e acesso ao campo pré-jogo." },
@@ -67,7 +67,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 70240,
     inaugurationYear: 2020,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/SoFi_Stadium_2023.jpg/800px-SoFi_Stadium_2023.jpg",
+    image: "/stadiums/sofi.jpg",
     description: "O estádio mais caro já construído, com arquitetura futurista e tecnologia de ponta.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 2800, capacity: 4000, description: "Experiência ultra-premium com champagne, buffet gourmet e meet & greet." },
@@ -84,7 +84,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 65326,
     inaugurationYear: 1987,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg/800px-Hard_Rock_Stadium_for_Super_Bowl_LIV_%2849606710103%29.jpg",
+    image: "/stadiums/hardrock.jpg",
     description: "Casa do Miami Dolphins, recebeu Super Bowls e será um dos principais palcos da Copa.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 2000, capacity: 3500, description: "Camarotes climatizados com vista panorâmica." },
@@ -101,7 +101,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 68500,
     inaugurationYear: 2014,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg/800px-Levi%27s_Stadium_in_February_2016_prior_to_Super_Bowl_50_%2824398261729%29.jpg",
+    image: "/stadiums/levis.jpg",
     description: "Estádio sustentável do San Francisco 49ers com tecnologia verde.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 2100, capacity: 3800, description: "Lounges com terraço e vista do Vale do Silício." },
@@ -118,7 +118,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 71000,
     inaugurationYear: 2017,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg/800px-Mercedes_Benz_Stadium_time_lapse_capture_2017-08-13.jpg",
+    image: "/stadiums/mercedes.jpg",
     description: "Teto retrátil único em formato de câmera e o maior sistema de vídeo 360° do mundo.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1900, capacity: 4200, description: "Suítes com bar privativo e serviço de concierge." },
@@ -135,7 +135,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 72220,
     inaugurationYear: 2002,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Nrg_stadium.jpg/800px-Nrg_stadium.jpg",
+    image: "/stadiums/nrg.jpg",
     description: "Primeiro estádio da NFL com teto retrátil, casa do Houston Texans.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1850, capacity: 4000, description: "Acesso exclusivo ao clube privativo Field Level." },
@@ -152,7 +152,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 69796,
     inaugurationYear: 2003,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Lincoln_Financial_Field_%28Aerial_view%29.jpg/800px-Lincoln_Financial_Field_%28Aerial_view%29.jpg",
+    image: "/stadiums/lincoln.jpg",
     description: "Casa dos Philadelphia Eagles, conhecido pela atmosfera intensa dos torcedores.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1800, capacity: 3800, description: "Suítes aquecidas com catering premium." },
@@ -169,7 +169,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 68740,
     inaugurationYear: 2002,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Qwest_Field_North.jpg/800px-Qwest_Field_North.jpg",
+    image: "/stadiums/lumen.jpg",
     description: "Conhecido pela acústica que amplifica o barulho da torcida do Seattle Seahawks.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1750, capacity: 3600, description: "Vista para o Monte Rainier e Puget Sound." },
@@ -186,7 +186,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 76416,
     inaugurationYear: 1972,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg/800px-Aerial_view_of_Arrowhead_Stadium_08-31-2013.jpg",
+    image: "/stadiums/arrowhead.jpg",
     description: "Um dos estádios mais barulhentos do mundo, casa dos Kansas City Chiefs.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1700, capacity: 4200, description: "Chiefs Kingdom Club com churrasco tradicional." },
@@ -203,7 +203,7 @@ export const stadiums: Stadium[] = [
     countryCode: "USA",
     capacity: 65878,
     inaugurationYear: 2002,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Gillette_Stadium_%28Top_View%29.jpg/800px-Gillette_Stadium_%28Top_View%29.jpg",
+    image: "/stadiums/gillette.jpg",
     description: "Casa da dinastia New England Patriots, estádio histórico da NFL.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1900, capacity: 3500, description: "Acesso ao Putnam Club com vista privilegiada." },
@@ -222,7 +222,7 @@ export const stadiums: Stadium[] = [
     countryCode: "MEX",
     capacity: 87523,
     inaugurationYear: 1966,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Estadio_Azteca_y_sus_alrededores_46.jpg/800px-Estadio_Azteca_y_sus_alrededores_46.jpg",
+    image: "/stadiums/azteca.jpg",
     description: "Lendário estádio que sediou duas finais de Copa do Mundo (1970 e 1986). Em 2026, será o único estádio a receber 3 finais de Copa.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1600, capacity: 5000, description: "Palcos históricos com serviço de luxo mexicano." },
@@ -239,7 +239,7 @@ export const stadiums: Stadium[] = [
     countryCode: "MEX",
     capacity: 53500,
     inaugurationYear: 2015,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG/800px-Mexico_Guadalupe_Monterrey_Estadio_BBVA_Bancomer_fifa_world_cup_2026_6.JPG",
+    image: "/stadiums/bbva.jpg",
     description: "Moderno estádio do Monterrey com arquitetura premiada internacionalmente. Apelidado de 'El Gigante de Acero'.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1400, capacity: 3000, description: "Suítes com vista para as montanhas de Monterrey." },
@@ -256,7 +256,7 @@ export const stadiums: Stadium[] = [
     countryCode: "MEX",
     capacity: 49850,
     inaugurationYear: 2010,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg/800px-Estadio_Akron_02-07-2022_cabecera_sur_lado_derecho_%283%29.jpg",
+    image: "/stadiums/akron.jpg",
     description: "Casa das Chivas Rayadas. Arquitetura inspirada em um vulcão com nuvem de fumaça.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1350, capacity: 2800, description: "Experiência premium com tequila artesanal." },
@@ -275,7 +275,7 @@ export const stadiums: Stadium[] = [
     countryCode: "CAN",
     capacity: 54500,
     inaugurationYear: 1983,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/BC_Place_2015_Women%27s_FIFA_World_Cup.jpg/800px-BC_Place_2015_Women%27s_FIFA_World_Cup.jpg",
+    image: "/stadiums/bcplace.jpg",
     description: "Maior estádio coberto do Canadá. Sediou a final da Copa do Mundo Feminina de 2015.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1800, capacity: 3200, description: "Lounges com vista para as North Shore Mountains." },
@@ -292,7 +292,7 @@ export const stadiums: Stadium[] = [
     countryCode: "CAN",
     capacity: 45500,
     inaugurationYear: 2007,
-    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toronto_BMO_Field_in_2024.jpg/800px-Toronto_BMO_Field_in_2024.jpg",
+    image: "/stadiums/bmo.jpg",
     description: "Principal estádio de futebol do Canadá, casa do Toronto FC. Expandido para a Copa 2026.",
     sectors: [
       { id: "vip", name: "VIP Premium", price: 1700, capacity: 2800, description: "Vista para o skyline de Toronto e CN Tower." },
